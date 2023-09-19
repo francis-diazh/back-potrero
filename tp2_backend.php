@@ -44,7 +44,7 @@
       echo $numero1 + $numero2;
       echo "<br>";
       echo $numero1 - $numero2;
-    }elseif ($numero2 < $numero1){
+    }elseif ($numero2 > $numero1){
         echo "<br>";
         echo $numero1 * $numero2;
         echo "<br>";
