@@ -25,7 +25,7 @@
         echo $variableB . " es mayor a 1 y menor a 10" ."<br>";
     }
 
-    $variableC = 1;
+    $variableC = 1; 
 
 
     if ($variableC > 10 || $variableC < 2){
@@ -44,7 +44,7 @@
       echo $numero1 + $numero2;
       echo "<br>";
       echo $numero1 - $numero2;
-    }elseif ($numero2 > $numero1){
+    }elseif ($numero2 < $numero1){
         echo "<br>";
         echo $numero1 * $numero2;
         echo "<br>";
